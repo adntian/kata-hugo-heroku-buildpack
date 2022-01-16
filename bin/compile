@@ -9,7 +9,7 @@ indent() {
   sed $SED_FLAG "$RE"
 }
 if [ -f "$1/package.json" ]; then
-  echo 'Python'
+  echo Go
   exit 0
 fi
 
