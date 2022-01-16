@@ -8,10 +8,6 @@ indent() {
   RE="s/^/       /"
   sed $SED_FLAG "$RE"
 }
-if [ -f "$1/package.json" ]; then
-  echo Go
-  exit 0
-fi
 
 BUILD_DIR=$1
 CACHE_DIR=$2
