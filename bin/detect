@@ -9,6 +9,6 @@ if [ -z $CONFIG_FILE ]; then
   exit 1
 fi
 
-# echo "Hugo"
-echo Go
+echo Hugo
+# echo Go
 exit 0
