@@ -10,5 +10,5 @@ if [ -z $CONFIG_FILE ]; then
 fi
 
 # echo "Hugo"
-echo "Go"
+echo Go
 exit 0
